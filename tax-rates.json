@@ -1,0 +1,39 @@
+{
+  "2023": {
+    "minWage": 6700.00,
+    "livingWage": 2684.00,
+    "pdfoRate": 18.0,
+    "militaryTaxRate": 1.5,
+    "esvRate": 22.0,
+    "esvDisabledRate": 8.41
+  },
+  "2024": {
+    "minWage": 8000.00,
+    "minWageOverrides": {
+      "1": 7100.00,
+      "2": 7100.00,
+      "3": 7100.00
+    },
+    "livingWage": 3028.00,
+    "pdfoRate": 18.0,
+    "militaryTaxRate": 1.5,
+    "esvRate": 22.0,
+    "esvDisabledRate": 8.41
+  },
+  "2025": {
+    "minWage": 8000.00,
+    "livingWage": 3028.00,
+    "pdfoRate": 18.0,
+    "militaryTaxRate": 5.0,
+    "esvRate": 22.0,
+    "esvDisabledRate": 8.41
+  },
+  "2026": {
+    "minWage": 8647.00,
+    "livingWage": 3209.00,
+    "pdfoRate": 18.0,
+    "militaryTaxRate": 5.0,
+    "esvRate": 22.0,
+    "esvDisabledRate": 8.41
+  }
+}
