@@ -1,0 +1,36 @@
+name: Auto Update Inflation Data
+
+on:
+  schedule:
+    - cron: '0 9 10,11,12 * *'
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+
+      - name: Run parser
+        run: python update.py
+
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add inflation.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update inflation indexes" && git push)
