@@ -5,7 +5,11 @@
     "pdfoRate": 18.0,
     "militaryTaxRate": 1.5,
     "esvRate": 22.0,
-    "esvDisabledRate": 8.41
+    "esvDisabledRate": 8.41,
+    "fopLimitGroup1": 1118900.00,
+    "fopLimitGroup2": 5587800.00,
+    "fopLimitGroup3": 7818900.00,
+    "vatMandatoryLimit": 1000000.00
   },
   "2024": {
     "minWage": 8000.00,
@@ -18,7 +22,11 @@
     "pdfoRate": 18.0,
     "militaryTaxRate": 1.5,
     "esvRate": 22.0,
-    "esvDisabledRate": 8.41
+    "esvDisabledRate": 8.41,
+    "fopLimitGroup1": 1185700.00,
+    "fopLimitGroup2": 5921400.00,
+    "fopLimitGroup3": 8285700.00,
+    "vatMandatoryLimit": 1000000.00
   },
   "2025": {
     "minWage": 8000.00,
@@ -26,7 +34,11 @@
     "pdfoRate": 18.0,
     "militaryTaxRate": 5.0,
     "esvRate": 22.0,
-    "esvDisabledRate": 8.41
+    "esvDisabledRate": 8.41,
+    "fopLimitGroup1": 1336000.00,
+    "fopLimitGroup2": 6672000.00,
+    "fopLimitGroup3": 9336000.00,
+    "vatMandatoryLimit": 1000000.00
   },
   "2026": {
     "minWage": 8647.00,
@@ -34,6 +46,10 @@
     "pdfoRate": 18.0,
     "militaryTaxRate": 5.0,
     "esvRate": 22.0,
-    "esvDisabledRate": 8.41
+    "esvDisabledRate": 8.41,
+    "fopLimitGroup1": 1444049.00,
+    "fopLimitGroup2": 7211598.00,
+    "fopLimitGroup3": 10091049.00,
+    "vatMandatoryLimit": 1000000.00
   }
 }
